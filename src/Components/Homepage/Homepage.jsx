@@ -533,7 +533,7 @@ const [formData, setFormData] = useState({
         </div>
       </section>
         <div className="footer">
-          <h2 style={{textAlign:"center"}}>© 2025 CodeNest. All rights reserved.</h2>
+          <h2 style={{textAlign:"center",color:"black"}}>© 2025 CodeNest. All rights reserved.</h2>
         </div>
     </div>
   );

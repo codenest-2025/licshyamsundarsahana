@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #002d80;
+  background: #eee;
   color: white;
 }
 
@@ -98,10 +98,11 @@ body {
 
 /* CONTENT */
 .container {
-  max-width: 900px;   /* ✅ Wider on desktop */
+  max-width: 1450px;   /* ✅ Wider on desktop */
   margin: 50px auto;
   padding: 20px;
   text-align: center; /* ✅ Center align */
+  background-color: #003399;
 }
 
 /* Badges */
@@ -172,7 +173,7 @@ body {
 /* About Section */
 .about-section {
   padding: 60px 10%;
-  background: #002d80;
+  background: #eee;
   display: flex;
   justify-content: center;
 }
@@ -180,10 +181,8 @@ body {
 .about-box {
   display: flex;
   align-items: center;
-  background: white;
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   max-width: 1100px;
   width: 100%;
   gap: 40px;
@@ -248,18 +247,6 @@ body {
   .about-text {
     text-align: center;
   }
-}
-
-.about-box {
-  display: flex;
-  align-items: flex-start;
-  gap: 30px;
-  background: #fff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
-  margin-top: 40px;
-  flex-wrap: wrap;
 }
 
 .about-img-container {
@@ -328,6 +315,11 @@ body {
   .about-box {
     flex-direction: column;
     text-align: center;
+  }
+  .about-img {
+    width: 180px;
+    height: 180px;
+    margin-bottom:20px;
   }
   .about-stats {
     grid-template-columns: repeat(2, 1fr);
@@ -482,10 +474,12 @@ body {
 .schemes-title{
   text-align: center;
   font-size: 28px;
+  color: #000;
 }
 
 .schemes-subtitle{
   text-align: center;
+  color: #000;
 }
 
 .scheme-products.show {
