@@ -172,10 +172,6 @@ const [formData, setFormData] = useState({
     return () => clearInterval(interval);
   }, [galleryImages.length]);
 
-    const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
