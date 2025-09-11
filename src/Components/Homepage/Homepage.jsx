@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from "react";
 import "../Homepage/Homepage.css";
 import { FaTrophy, FaMedal } from "react-icons/fa";
-import { FaPhoneAlt, FaEnvelope, FaWhatsapp } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaWhatsapp, FaLinkedin, FaFacebook } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
 export default function Homepage() {
@@ -238,7 +238,7 @@ const [formData, setFormData] = useState({
         {/* Main Content */}
         <main className="main">
           <h1>
-            Secure Your Tomorrow, <br /> Today
+            Secure Your Tomorrow, <br /> Today!
           </h1>
           <p>
             I'm Shyamsundar Sahana, a certified LIC Agent and Financial Planner
@@ -465,7 +465,7 @@ const [formData, setFormData] = useState({
                       <div className="icon-sq"><FaPhoneAlt /></div>
                       <div>
                         <h4>Phone Numbers</h4>
-                        <p>+91 99334 15637 / 94751 94082</p>
+                        <p>+91 9933415637 / 9475194082</p>
                       </div>
                     </a>
  
@@ -482,6 +482,20 @@ const [formData, setFormData] = useState({
                       <div>
                         <h4>WhatsApp</h4>
                         <p>9933415637</p>
+                      </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shyam-sundar-sahana/" target="_blank" rel="noopener noreferrer" className="contact-card">
+                      <div className="icon-sq"><FaLinkedin /></div>
+                      <div>
+                        <h4>Linkedin</h4>
+                        <p>Shyam Sundar Sahana</p>
+                      </div>
+                    </a>
+                    <a href="https://www.facebook.com/shyamsundar.sahana" target="_blank" rel="noopener noreferrer" className="contact-card">
+                      <div className="icon-sq"><FaFacebook /></div>
+                      <div>
+                        <h4>Facebook</h4>
+                        <p>Shyam Sundar Sahana</p>
                       </div>
                     </a>
                   </div>

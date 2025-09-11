@@ -830,14 +830,14 @@ body {
 .contact-cards {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .contact-card {
   display: flex;
   gap: 18px;
   align-items: center;
-  padding: 20px;
+  padding: 16px;
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -850,8 +850,8 @@ body {
 }
 
 .icon-sq {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 14px;
   background: #ffd200;          /* yellow tile */
   color: #0d3f6b;               /* dark blue icon */
@@ -870,7 +870,7 @@ body {
 
 .contact-card h4 {
   margin: 0;
-  font-size: 19px;
+  font-size: 15px;
   font-weight: 700;
   color: #fff;
 }
